@@ -1,0 +1,519 @@
+body {
+  background-color: #040814;
+  color: #f0f0f0;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: flex-end;
+  position: fixed;
+}
+header button {
+  height: 51px;
+  width: 170px;
+  margin-right: 45px;
+  background-color: #040814;
+  border: solid 1px #f0f0f0;
+  color: #f0f0f0;
+  border-radius: 5px;
+}
+header button h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+header button:hover {
+  background-color: #f0f0f0;
+  color: #040814;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(img/original.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: right;
+}
+.conteiner-flex {
+  display: flex;
+  width: 50%;
+  height: 900px;
+  justify-content: space-between;
+  justify-content: center;
+}
+.hero .box1 img {
+  width: 400px;
+  height: 163px;
+}
+.hero .box1 {
+  display: flex;
+  height: 600px;
+  width: 90%;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.hero .box1 h3 {
+  margin-top: 50px;
+  font-size: 28px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.hero .conteiner-flex .box1 button {
+  width: 531px;
+  height: 62px;
+  margin-top: 15px;
+  background-color: #016cf9;
+  color: #f0f0f0;
+}
+.hero .conteiner-flex .box1 a {
+  font-size: 20px;
+  color: #f0f0f0;
+}
+.hero .conteiner-flex .box1 h6 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #56575f;
+}
+.caja2 {
+  display: flex;
+  height: 600px;
+  width: 100vw;
+  margin-top: 50px;
+}
+.caja2 .container {
+  display: flex;
+}
+.caja2 .mandalorian {
+  display: flex;
+  height: 600px;
+  width: 60%;
+  align-content: center;
+  justify-content: center;
+}
+.caja2 .mandalorian img {
+  height: 516px;
+  width: 619px;
+}
+.caja2 .mandalorian2 {
+  display: flex;
+  height: 600px;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.caja2 .mandalorian2 h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #f0f0f0;
+}
+
+.caja2 .mandalorian2 p {
+  font-size: 20px;
+  text-align: initial;
+  font-family: sans-serif;
+  color: #56575f;
+  margin-right: 70px;
+  color: #b4c0c0;
+}
+.caja3 {
+  display: flex;
+  height: 600px;
+  width: 100vw;
+}
+.caja3 .container {
+  display: flex;
+}
+.caja3 .container .suscription {
+  display: flex;
+  height: 600px;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.caja3 .container .suscription2 {
+  display: flex;
+  height: 600px;
+  width: 50%;
+}
+
+.caja3 .container .suscription2 img {
+  display: flex;
+  width: 596px;
+  height: 529px;
+  margin-left: 15px;
+}
+.caja3 .container .suscription p {
+  font-size: 20px;
+  margin-left: 76px;
+  font-family: sans-serif;
+  color: #c0c0c0;
+}
+.caja3 .container .suscription button {
+  width: 353px;
+  height: 65px;
+  background-color: #016cf9;
+  color: #f0f0f0;
+  margin-left: 70px;
+}
+.caja3 .container .suscription button h5 {
+  font-size: 18px;
+  margin: 0 auto;
+}
+.caja4 {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+}
+.caja4 .container {
+  display: flex;
+  height: 600px;
+  width: 100vw;
+  background-image: url(img/leon.png);
+  background-position: 50%;
+  background-size: 1250px 700px;
+  background-repeat: no-repeat;
+}
+.caja4 .container .leon1 {
+  display: flex;
+  height: 600px;
+  width: 50%;
+}
+.caja4 .container .leon2 {
+  display: flex;
+  height: 600px;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
+.caja4 .container .leon2 h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.caja4 .container .leon2 p {
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: sans-serif;
+  color: #c0c0c0;
+}
+.caja5 {
+  display: flex;
+  width: 100vw;
+  height: 600px;
+
+  margin-top: 100px;
+}
+
+.caja5 .container .dispositivos {
+  text-align: center;
+  width: 100vw;
+  height: 50px;
+  font-size: 20px;
+}
+.caja5 .container .dispositivos h2 {
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.caja5 .container .dispositivos2 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.caja5 .container .dispositivos2 img {
+  width: 210px;
+  height: 105px;
+}
+.caja5 .container .dispositivos2 h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.caja5 .container .dispositivos2 p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #c0c0c0;
+}
+footer {
+  display: flex;
+  width: 100vw;
+  height: 240px;
+}
+footer .container img {
+  width: 80px;
+  height: 44px;
+}
+footer .container .logo {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+footer .container .more select {
+  background-color: #040814;
+  color: #f0f0f0;
+}
+footer .container .more {
+  display: flex;
+  width: 950px;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: smaller;
+}
+footer .container .derechos {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: smaller;
+}
+footer .container .servicio {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  font-size: smaller;
+}
+footer .container a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #040814;
+    color: #f0f0f0;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: flex-end;
+    position: fixed;
+  }
+  header button {
+    height: 41px;
+    width: 137px;
+    margin-right: 45px;
+    background-color: #040814;
+    border: solid 1px #f0f0f0;
+    color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  header button h2 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .hero {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/disney-phone.jpg);
+    background-size: 100vw 800px;
+    background-position: cover;
+  }
+
+  .conteiner-flex {
+    display: flex;
+    width: 100%;
+    height: 9199vh;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  .hero .box1 {
+    display: flex;
+    height: 608px;
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    margin-top: 70px;
+    flex-direction: column;
+  }
+  .hero .box1 img {
+    width: 180px;
+    height: 74px;
+    margin: 0 auto;
+  }
+  .hero .conteiner-flex .box1 button {
+    width: 120%;
+    height: 51px;
+    margin-top: 15px;
+    background-color: #016cf9;
+    color: #f0f0f0;
+    margin-left: -40px;
+  }
+  .caja2 .mandalorian {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+  }
+  .caja2 .mandalorian img {
+    width: 489px;
+    height: 391px;
+  }
+  .caja2 .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .caja2 .mandalorian2 h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: #f0f0f0;
+    width: 100vw;
+  }
+  .caja2 .mandalorian2 p {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #f0f0f0;
+    width: 83vw;
+  }
+  .caja3 {
+    display: flex;
+    margin-top: 100px;
+    width: 100vw;
+    margin-top: 100px;
+  }
+  .caja3 .container {
+    flex-direction: column-reverse;
+  }
+  .caja3 .container .suscription2 {
+    display: flex;
+    height: 600px;
+    width: 100vw;
+    justify-content: center;
+  }
+  .caja3 .container .suscription2 img {
+    width: 451px;
+    height: 378px;
+  }
+  .caja3 .container .suscription {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja3 .container .suscription p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #c0c0c0;
+    margin-left: 51px;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: -20px;
+  }
+  .caja3 .container .suscription button {
+    width: 353px;
+    height: 61px;
+    background-color: #016cf9;
+    color: #f0f0f0;
+  }
+  .caja4 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+  }
+  .caja4 .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: none;
+    flex-direction: column;
+  }
+  .caja4 .container .leon1 {
+    display: flex;
+    height: 600px;
+    width: 100vw;
+    background-image: url(img/reyLeon-cel.png);
+    background-size: 530px 415px;
+    background-repeat: no-repeat;
+  }
+  .caja4 .container .leon2 {
+    display: flex;
+    height: 55vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    text-align: center;
+  }
+  .caja4 .container .leon2 p {
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: #c0c0c0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .caja5 .container .dispositivos h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  .caja5 .container .dispositivos2 img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .caja5 .container .dispositivos2 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .caja5 .container .dispositivos2 p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #c0c0c0;
+  }
+  footer .container .more {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 10px;
+    flex-direction: row;
+  }
+  footer .container .servicio {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    font-size: smaller;
+    flex-direction: row;
+  }
+}
